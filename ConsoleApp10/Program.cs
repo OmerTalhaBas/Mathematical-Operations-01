@@ -2,9 +2,9 @@
 {
     static void Main(string[] args)
     {        
-        Console.Write("Birinci Sayıyı Giriniz : ");
+        Console.WriteLine("Birinci Sayıyı Giriniz : ");
         double sayi = Convert.ToDouble(Console.ReadLine());
-        Console.Write("İkinci Sayıyı Giriniz : ");
+        Console.WriteLine("İkinci Sayıyı Giriniz : ");
         double sayi1 = Convert.ToDouble(Console.ReadLine());
         MatematikselIslemler(sayi, sayi1);
     }
